@@ -1,0 +1,13 @@
+city_id,city_name,region,latitude,longitude
+1,Casablanca,Casablanca-Settat,33.5731,-7.5898
+2,Rabat,Rabat-Salé-Kénitra,34.0209,-6.8416
+3,Marrakech,Marrakech-Safi,31.6295,-7.9811
+4,Fès,Fès-Meknès,34.0331,-5.0003
+5,Tanger,Tanger-Tétouan-Al Hoceïma,35.7595,-5.8340
+6,Agadir,Souss-Massa,30.4278,-9.5981
+7,Oujda,Oriental,34.6814,-1.9086
+8,Beni Mellal,Béni Mellal-Khénifra,32.3373,-6.3498
+9,Laâyoune,Laâyoune-Sakia El Hamra,27.1536,-13.2033
+10,Dakhla,Dakhla-Oued Ed-Dahab,23.6848,-15.9579
+11,Ouarzazate,Drâa-Tafilalet,30.9189,-6.8934
+12,Errachidia,Drâa-Tafilalet,31.9314,-4.4244

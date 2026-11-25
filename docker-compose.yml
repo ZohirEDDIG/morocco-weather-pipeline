@@ -16,6 +16,18 @@ services:
             interval: 5s
             timeout: 5s
             retries: 10
+    ingestion:
+        build: ./ingestion
+        profiles: ["tools"]
+        env_file: .env
+        environment:
+            POSTGRES_HOST: postgres
+            POSTGRES_PORT: 5432
+        depends_on:
+            postgres:
+                condition: service_healthy
+        volumes:
+        - ./ingestion:/app/ingestion
 
 volumes:
     pgdata:
